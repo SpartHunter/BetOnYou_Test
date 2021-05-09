@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "020dc8a1-998e-450a-9bf4-b682c4e82ba2",
+		"name": "BetOnYou request API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Players",
+			"request": {
+				"method": "GET",
+				"header": ["Content-Type:application/json"],
+				"url": "http://localhost:5000/player"
+			},
+			"response": []
+		},
+		{
+			"name": "Get One Player",
+			"request": {
+				"method": "GET",
+				"header": ["Content-Type:application/json"],
+				"url": "http://localhost:5000/player/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Player",
+			"request": {
+				"method": "POST",
+				"header": ["Content-Type:application/json"],
+				"url": "http://localhost:5000/player"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Player",
+			"request": {
+				"method": "PUT",
+				"header": ["Content-Type:application/json"],
+				"url": "http://localhost:5000/player/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Player",
+			"request": {
+				"method": "DELETE",
+				"header": ["Content-Type:application/json"],
+				"url": "http://localhost:5000/player/1"
+			},
+			"response": []
+		}
+	]
+}
