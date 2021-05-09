@@ -41,11 +41,11 @@ The api can be used in two ways :
 - #### Postman using :
 The use with postman is done with predefined urls such as :
 
-    - For all player (Method : GET) -> [http://localhost:5000/player](http://localhost:5000/player)
-    - For get player by id (Method : GET) -> [http://localhost:5000/player/<:id>](http://localhost:5000/player/<:id>)
-    - For create player (Method : POST) -> [http://localhost:5000/player](http://localhost:5000/player)
-    - For update player (Method : PUT) -> [http://localhost:5000/player/<:id>](http://localhost:5000/player/<:id>)
-    - For delete player (Method : DELETE) -> [http://localhost:5000/player/<:id>](http://localhost:5000/player/<:id>)
+    - For all player (Method : GET) -> http://localhost:5000/player
+    - For get player by id (Method : GET) -> http://localhost:5000/player/<:id>
+    - For create player (Method : POST) -> http://localhost:5000/player
+    - For update player (Method : PUT) -> http://localhost:5000/player/<:id>
+    - For delete player (Method : DELETE) -> http://localhost:5000/player/<:id>
 
 Or Just import ****BetOnYou_Postman.json**** file in Postman app
 
